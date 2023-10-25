@@ -28,10 +28,10 @@ public class EventoController : ControllerBase
     }
 
     [HttpPost]
-    public void Post(Evento evento)
+    public IActionResult Post(Evento evento)
     {
         _context.Eventos.Add(evento);
-        _context.SaveChanges();
+        return Ok(_context.SaveChanges());
     }
 
 }
