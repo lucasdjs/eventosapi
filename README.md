@@ -1,22 +1,22 @@
 # eventosapi
 
-## Plataforma de Eventos em C# .NET 7 e Angular 🚀
+## Plataforma de Eventos em C# .NET 7 e Angular 🚀:smile:
 
 ## Descrição do Projeto:
 
 **Bem-vindo à nossa Plataforma de Eventos, um projeto inovador desenvolvido com a combinação poderosa de C# .NET 7 e Angular. Esta plataforma visa revolucionar a forma como eventos são organizados, gerenciados e participados. Com um foco centrado no usuário, oferecemos uma solução abrangente e intuitiva para criar, promover e participar de eventos de todos os tipos.**
 
-Recursos Principais:
+**Recursos Principais**:
 
-Gerenciamento de Eventos: Crie e personalize eventos com facilidade, definindo datas, locais, temas e muito mais. Gerencie múltiplos eventos de forma eficiente.
+- **Gerenciamento de Eventos:** Crie e personalize eventos com facilidade, definindo datas, locais, temas e muito mais. Gerencie múltiplos eventos de forma eficiente.
 
-Inscrições e Pagamentos: Permita que os participantes se inscrevam de maneira simples e segura. Integre sistemas de pagamento para facilitar as transações.
+- **Inscrições e Pagamentos:** Permita que os participantes se inscrevam de maneira simples e segura. Integre sistemas de pagamento para facilitar as transações.
 
-Comunicação e Notificações: Mantenha os participantes atualizados com notificações em tempo real, lembretes de eventos e atualizações importantes.
+- **Comunicação e Notificações:** Mantenha os participantes atualizados com notificações em tempo real, lembretes de eventos e atualizações importantes.
 
-Painel do Organizador: Ofereça aos organizadores de eventos as ferramentas necessárias para gerenciar participantes, agendas e recursos.
+- **Painel do Organizador:** Ofereça aos organizadores de eventos as ferramentas necessárias para gerenciar participantes, agendas e recursos.
 
-Participação Remota: Facilite a participação em eventos por meio de streaming ao vivo, bate-papo interativo e recursos de networking virtual.
+- **Participação Remota:** Facilite a participação em eventos por meio de streaming ao vivo, bate-papo interativo e recursos de networking virtual.
 
 Avaliações e Feedback: Colete feedback valioso dos participantes para aprimorar futuros eventos e garantir a satisfação do público.
 
