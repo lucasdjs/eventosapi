@@ -1,10 +1,10 @@
 # eventosapi
 
-#Título do Projeto#: Plataforma de Eventos em C# .NET 7 e Angular
+## Plataforma de Eventos em C# .NET 7 e Angular 🚀
 
-Descrição do Projeto:
+## Descrição do Projeto:
 
-Bem-vindo à nossa Plataforma de Eventos, um projeto inovador desenvolvido com a combinação poderosa de C# .NET 7 e Angular. Esta plataforma visa revolucionar a forma como eventos são organizados, gerenciados e participados. Com um foco centrado no usuário, oferecemos uma solução abrangente e intuitiva para criar, promover e participar de eventos de todos os tipos.
+**Bem-vindo à nossa Plataforma de Eventos, um projeto inovador desenvolvido com a combinação poderosa de C# .NET 7 e Angular. Esta plataforma visa revolucionar a forma como eventos são organizados, gerenciados e participados. Com um foco centrado no usuário, oferecemos uma solução abrangente e intuitiva para criar, promover e participar de eventos de todos os tipos.**
 
 Recursos Principais:
 
