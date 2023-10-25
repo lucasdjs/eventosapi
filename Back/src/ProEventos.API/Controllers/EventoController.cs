@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ProEventos.API.Models;
+using Back.src.ProEventos.API.Data;
 
 namespace ProEventos.API.Controllers;
 
@@ -7,39 +8,30 @@ namespace ProEventos.API.Controllers;
 [Route("api/[controller]")]
 public class EventoController : ControllerBase
 {
-    public IEnumerable<Evento> _evento =  new Evento[]{    
-           new Evento() {
-            EventoId = 1,
-            Tema = "Angular 11 e .NET 7",
-            Local = "Lages",
-            Lote = "1º Lote",
-            QtdPessoas = 25,
-            DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
-            ImagemURL = "foto.png"
-            },
-            new Evento()
-            {
-            EventoId = 2,
-            Tema = "Angular 11 e .NET 7",
-            Local = "Lages",
-            Lote = "1º Lote",
-            QtdPessoas = 25,
-            DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
-            ImagemURL = "foto1.png"
-            }
-    };
-public EventoController(){}
+    private readonly ApplicationDbContext _context;
+    public EventoController(ApplicationDbContext context)
+    {
+        _context = context;
+    }
 
     [HttpGet]
     public IEnumerable<Evento> Get()
     {
-        return _evento;
-    }
+        return _context.Eventos;
+        }
 
-     [HttpGet("{id}")]
+
+    [HttpGet("{id}")]
     public IEnumerable<Evento> GetById(int id)
     {
-        return _evento.Where(x=>x.EventoId == id);
+        return _context.Eventos.Where(x=>x.EventoId == id);
     }
-    
+
+    [HttpPost]
+    public void Post(Evento evento)
+    {
+        _context.Eventos.Add(evento);
+        _context.SaveChanges();
+    }
+
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Angular e .Net\\PROEVENTOS_2\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "A:\\Angular e .Net\\Pro Eventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "A:\\Angular e .Net\\PROEVENTOS_2\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "A:\\Angular e .Net\\Pro Eventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Angular e .Net\\PROEVENTOS_2\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "A:\\Angular e .Net\\Pro Eventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "A:\\Angular e .Net\\PROEVENTOS_2\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "A:\\Angular e .Net\\Pro Eventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "A:\\Angular e .Net\\PROEVENTOS_2\\Back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "A:\\Angular e .Net\\Pro Eventos\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,30 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
