@@ -1,6 +1,6 @@
 # eventosapi
 
-Título do Projeto: Plataforma de Eventos em C# .NET 7 e Angular
+##Título do Projeto: Plataforma de Eventos em C# .NET 7 e Angular
 
 Descrição do Projeto:
 
