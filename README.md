@@ -1,6 +1,6 @@
 # eventosapi
 
-## Plataforma de Eventos em C# .NET 7 e Angular 🚀:smile:
+** Plataforma de Eventos em C# .NET 7 e Angular 🚀:smile:**
 
 ## Descrição do Projeto:
 
@@ -24,8 +24,6 @@
 
 ## Tecnologias Utilizadas:## 
 
-C# .NET 7: Uma linguagem de programação poderosa e uma estrutura de desenvolvimento robusta para o lado do servidor.
+**👨‍💻C# .NET 7🚀:** Uma linguagem de programação poderosa e uma estrutura de desenvolvimento robusta para o lado do servidor.
 
-Angular: Uma estrutura moderna para o desenvolvimento de aplicativos da web, oferecendo uma experiência de usuário rica e responsiva.
-
-Contribuições e Colaborações:
+**👨‍💻Angular🚀:** Uma estrutura moderna para o desenvolvimento de aplicativos da web, oferecendo uma experiência de usuário rica e responsiva.
